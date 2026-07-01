@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Teacher</title>
+
+    <link rel="stylesheet" href="plant.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="logo">
+        🌿 <span>Plant Teacher</span>
+    </div>
+
+    <nav>
+
+        <a href="#">Home</a>
+
+        <a href="#shop">Shop</a>
+
+        <a href="#care">Care</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <div class="header-icons">
+
+        <input
+            type="text"
+
+            id="searchInput"
+
+            placeholder="Search plants..."
+        >
+
+        <button id="wishlistBtn">
+            ❤️ <span id="wishlistCount">0</span>
+        </button>
+
+        <button id="cartBtn">
+            🛒 <span id="cartCount">0</span>
+        </button>
+<button id="darkModeBtn">🌙</button>
+    </div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <h1>Grow Plants With Confidence 🌱</h1>
+
+    <p>
+        Learn everything from seed to harvest and buy
+        healthy plants for your home.
+    </p>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about">
+
+    <h2>About Plant Teacher</h2>
+
+    <p>
+
+        Plant Teacher helps beginners and plant lovers
+        choose the perfect plants, learn complete growing
+        methods and purchase plants online.
+
+    </p>
+
+</section>
+
+<!-- ================= SHOP ================= -->
+
+<section class="shop" id="shop">
+
+<h2>Indoor Plants</h2>
+
+<div class="shop-container">
+
+<div class="shop-card">
+
+<img src="https://wallpapers.com/images/hd/snake-plant-pictures-3389-x-3390-jxv4jggvch0js7g8.jpg" alt="Snake Plant">
+
+<h3>Snake Plant</h3>
+
+<p class="price">₹299</p>
+
+<div class="actions">
+
+<button class="wishlist">
+❤️
+</button>
+
+<button class="add-cart">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<div class="shop-card">
+
+<img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/63b8f901-f7ef-42ad-aa73-ce9636a42231.__CR0,0,970,600_PT0_SX970_V1___.png" alt="Money Plant">
+
+<h3>Money Plant</h3>
+
+<p class="price">₹199</p>
+
+<div class="actions">
+
+<button class="wishlist">
+❤️
+</button>
+
+<button class="add-cart">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<div class="shop-card">
+
+<img src="https://tse2.mm.bing.net/th/id/OIP.tuht2CJRoTMoYiLqv7ZUcgHaE7?pid=Api&P=0&h=180" alt="Aloe Vera">
+
+<h3>Aloe Vera</h3>
+
+<p class="price">₹249</p>
+
+<div class="actions">
+
+<button class="wishlist">
+❤️
+</button>
+
+<button class="add-cart">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<div class="shop-card">
+
+<img src="https://tse4.mm.bing.net/th/id/OIP.k3fqp5wxVaaHYaxIJ0cpkQHaJQ?pid=Api&P=0&h=180" alt="Cactus">
+
+<h3>Cactus</h3>
+
+<p class="price">₹159</p>
+
+<div class="actions">
+
+<button class="wishlist">
+❤️
+</button>
+
+<button class="add-cart">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FLOWER PLANTS ================= -->
+
+<section class="shop">
+
+<h2>Flower Plants</h2>
+
+<div class="shop-container">
+
+<div class="shop-card">
+
+<img src="https://cdn.pixabay.com/photo/2018/06/03/16/07/rose-3450846_960_720.jpg" alt="Rose">
+
+<h3>Rose Plant</h3>
+
+<p class="price">₹259</p>
+
+<div class="actions">
+
+<button class="wishlist">
+❤️
+</button>
+
+<button class="add-cart">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<div class="shop-card">
+
+<img src="https://tse4.mm.bing.net/th/id/OIP._TSvVXkQBVTqvSpipXARmgHaEo?pid=Api&P=0&h=180" alt="Jasmine">
+
+<h3>Jasmine Plant</h3>
+
+<p class="price">₹169</p>
+
+<div class="actions">
+
+<button class="wishlist">
+❤️
+</button>
+
+<button class="add-cart">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<div class="shop-card">
+
+<img src="https://tse2.mm.bing.net/th/id/OIP.seaz9MbcrzbwPGd7c88AVwHaE7?pid=Api&P=0&h=180" alt="Sunflower">
+
+<h3>Sunflower</h3>
+
+<p class="price">₹149</p>
+
+<div class="actions">
+
+<button class="wishlist">
+❤️
+</button>
+
+<button class="add-cart">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+<div class="shop-card">
+
+<img src="https://cdn.pixabay.com/photo/2023/09/15/15/52/african-lily-8255030_1280.jpg" alt="Lily">
+
+<h3>Lily</h3>
+
+<p class="price">₹119</p>
+
+<div class="actions">
+
+<button class="wishlist">
+❤️
+</button>
+
+<button class="add-cart">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= FRUIT PLANTS ================= -->
+
+<section class="shop">
+
+    <h2>Fruit Plants</h2>
+
+    <div class="shop-container">
+
+        <div class="shop-card">
+            <img src="https://i.etsystatic.com/34721613/r/il/011c8b/4179552533/il_1080xN.4179552533_53r3.jpg" alt="Mango Plant">
+
+            <h3>Mango Plant</h3>
+
+            <p class="price">₹299</p>
+
+            <div class="actions">
+                <button class="wishlist">❤️</button>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="shop-card">
+            <img src="https://www.buynfarm.in/wp-content/uploads/2024/03/jack-jpg.webp" alt="Jack Fruit Plant">
+
+            <h3>Jack Fruit Plant</h3>
+
+            <p class="price">₹269</p>
+
+            <div class="actions">
+                <button class="wishlist">❤️</button>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="shop-card">
+            <img src="https://housing.com/news/wp-content/uploads/2023/01/Amla-trees-compressed.jpg" alt="Amla Plant">
+
+            <h3>Amla Plant</h3>
+
+            <p class="price">₹249</p>
+
+            <div class="actions">
+                <button class="wishlist">❤️</button>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="shop-card">
+            <img src="https://cdn.mos.cms.futurecdn.net/RZpjoB2ryfQmiYzJdE7RCe.jpg" alt="Guava Plant">
+
+            <h3>Guava Plant</h3>
+
+            <p class="price">₹349</p>
+
+            <div class="actions">
+                <button class="wishlist">❤️</button>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PLANT GROWTH ================= -->
+
+<section class="growth">
+
+    <h2>Plant Growth Journey</h2>
+
+    <div class="timeline">
+
+        <div class="step">
+            🌱
+            <h3>Seed</h3>
+            <p>Select healthy quality seeds.</p>
+        </div>
+
+        <div class="step">
+            🌿
+            <h3>Germination</h3>
+            <p>Water regularly and keep warm.</p>
+        </div>
+
+        <div class="step">
+            🪴
+            <h3>Young Plant</h3>
+            <p>Provide sunlight and nutrients.</p>
+        </div>
+
+        <div class="step">
+            🌳
+            <h3>Mature Plant</h3>
+            <p>Prune and fertilize regularly.</p>
+        </div>
+
+        <div class="step">
+            🍎
+            <h3>Harvest</h3>
+            <p>Enjoy healthy fruits and flowers.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CARE ================= -->
+
+<section class="care" id="care">
+
+    <h2>Complete Plant Care Guide</h2>
+
+    <div class="care-box">
+
+        <p>💧 Water : 2–3 times per week</p>
+        <p>☀ Sunlight : 4–6 hours daily</p>
+        <p>🌱 Soil : Well-drained fertile soil</p>
+        <p>🌿 Fertilizer : Every 15 days</p>
+        <p>🐛 Pest Control : Neem Oil Spray</p>
+
+    </div>
+
+</section>
+
+<!-- ================= CART ================= -->
+
+<section class="cart">
+
+    <h2>Your Shopping Cart</h2>
+
+    <div id="cartItems">
+        <p>Your cart is empty.</p>
+    </div>
+
+    <div id="cartTotal">
+        <h3>Total : ₹0</h3>
+    </div>
+
+    <button onclick="window.location.href='payment.html'">
+    🌿 Proceed To Checkout
+</button>
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+
+        <input
+            type="text"
+            placeholder="Your Name"
+            required
+        >
+
+        <input
+            type="email"
+            placeholder="Your Email"
+            required
+        >
+
+        <textarea
+            placeholder="Write your message..."
+            required
+        ></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h3>🌿 Plant Teacher</h3>
+
+    <p>
+        Grow Healthy • Live Green • Save Nature
+    </p>
+
+    <p>
+        © 2026 Plant Teacher. All Rights Reserved.
+    </p>
+
+</footer>
+
+<script src="plant.js"></script>
+
+</body>
+</html>
