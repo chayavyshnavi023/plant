@@ -1,0 +1,543 @@
+/* ===========================
+   GOOGLE FONT & RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4fff4;
+    color:#333;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.header{
+    width:100%;
+    background:#2e7d32;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#fff;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:0 12px;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#c8ffb0;
+}
+
+/* ===========================
+   SEARCH
+=========================== */
+
+#searchInput{
+    padding:10px;
+    width:220px;
+    border:none;
+    border-radius:25px;
+    outline:none;
+}
+
+.header-icons{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.header-icons button{
+    border:none;
+    background:white;
+    color:#2e7d32;
+    padding:10px 15px;
+    border-radius:25px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.header-icons button:hover{
+    background:#dcedc8;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(rgba(0,100,0,.5),rgba(0,100,0,.5)),
+    url("https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=1600&auto=format&fit=crop");
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+/* ===========================
+   ABOUT
+=========================== */
+
+.about{
+    padding:60px 10%;
+    text-align:center;
+}
+
+.about h2{
+    color:#2e7d32;
+    margin-bottom:20px;
+}
+
+.about p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* ===========================
+   SHOP
+=========================== */
+
+.shop{
+    padding:60px 8%;
+}
+
+.shop h2{
+    text-align:center;
+    color:#2e7d32;
+    margin-bottom:40px;
+}
+
+.shop-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.shop-card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.shop-card:hover{
+    transform:translateY(-10px);
+}
+
+.shop-card img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+}
+
+.shop-card h3{
+    margin:15px 0;
+}
+
+.price{
+    color:#2e7d32;
+    font-size:22px;
+    font-weight:bold;
+}
+
+/* ===========================
+   ACTIONS
+=========================== */
+
+.actions{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    padding:20px;
+}
+
+.actions button{
+    border:none;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.wishlist{
+    background:#ffebee;
+    color:red;
+    padding:10px 14px;
+    border-radius:50%;
+    font-size:20px;
+}
+
+.wishlist:hover{
+    background:red;
+    color:white;
+}
+
+.add-cart{
+    background:#2e7d32;
+    color:white;
+    padding:10px 18px;
+    border-radius:8px;
+}
+
+.add-cart:hover{
+    background:#1b5e20;
+}
+/* ===========================
+   GROWTH SECTION
+=========================== */
+
+.growth{
+    padding:70px 8%;
+    background:#f8fff8;
+    text-align:center;
+}
+
+.growth h2{
+    color:#2e7d32;
+    margin-bottom:40px;
+}
+
+.timeline{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.step{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 18px rgba(0,0,0,.1);
+    transition:.3s;
+    font-size:18px;
+}
+
+.step:hover{
+    transform:translateY(-8px);
+}
+
+.step h3{
+    margin:15px 0 10px;
+    color:#2e7d32;
+}
+
+.step p{
+    color:#666;
+    line-height:1.6;
+}
+
+/* ===========================
+   CARE
+=========================== */
+
+.care{
+    padding:70px 8%;
+}
+
+.care h2{
+    text-align:center;
+    color:#2e7d32;
+    margin-bottom:30px;
+}
+
+.care-box{
+    max-width:700px;
+    margin:auto;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+.care-box p{
+    padding:12px 0;
+    border-bottom:1px solid #eee;
+    font-size:18px;
+}
+
+/* ===========================
+   CART
+=========================== */
+
+.cart{
+    padding:70px 8%;
+    background:#f8fff8;
+}
+
+.cart h2{
+    text-align:center;
+    color:#2e7d32;
+    margin-bottom:30px;
+}
+
+#cartItems{
+    max-width:800px;
+    margin:auto;
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+.cart-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 0;
+    border-bottom:1px solid #eee;
+}
+
+.cart-item button{
+    background:red;
+    color:white;
+    border:none;
+    padding:8px 14px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+#cartTotal{
+    text-align:center;
+    margin-top:20px;
+    font-size:22px;
+    color:#2e7d32;
+}
+
+#checkoutBtn{
+    display:block;
+    margin:30px auto;
+    background:#2e7d32;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+#checkoutBtn:hover{
+    background:#1b5e20;
+}
+
+/* ===========================
+   CONTACT
+=========================== */
+
+.contact{
+    padding:70px 8%;
+}
+
+.contact h2{
+    text-align:center;
+    color:#2e7d32;
+    margin-bottom:30px;
+}
+
+.contact form{
+    max-width:650px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.contact input,
+.contact textarea{
+    padding:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+}
+
+.contact textarea{
+    resize:none;
+    height:150px;
+}
+
+.contact button{
+    background:#2e7d32;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.contact button:hover{
+    background:#1b5e20;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+footer h3{
+    margin-bottom:10px;
+}
+
+footer p{
+    margin:6px 0;
+}
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#2e7d32;
+    border-radius:20px;
+}
+
+/* ===========================
+   ANIMATION
+=========================== */
+
+.shop-card,
+.step,
+.care-box,
+#cartItems{
+    animation:fadeIn .8s ease;
+}
+
+@keyframes fadeIn{
+
+from{
+    opacity:0;
+    transform:translateY(25px);
+}
+
+to{
+    opacity:1;
+    transform:translateY(0);
+}
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:900px){
+
+.header{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.header-icons{
+    flex-direction:column;
+}
+
+#searchInput{
+    width:100%;
+}
+
+.hero h1{
+    font-size:34px;
+}
+
+.hero p{
+    font-size:17px;
+}
+
+.shop-container{
+    grid-template-columns:1fr;
+}
+
+.timeline{
+    grid-template-columns:1fr;
+}
+
+.cart-item{
+    flex-direction:column;
+    gap:10px;
+}
+
+}
+
+/* ===========================
+   DARK MODE READY
+=========================== */
+
+body.dark{
+    background:#121212;
+    color:white;
+}
+
+body.dark .shop-card,
+body.dark .care-box,
+body.dark #cartItems,
+body.dark .step{
+    background:#222;
+    color:white;
+}
+
+body.dark .price{
+    color:#90ee90;
+}

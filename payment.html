@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Secure Checkout | Plant Teacher</title>
+
+<link rel="stylesheet" href="payment.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🌿 Secure Checkout</h1>
+
+<!-- Customer Details -->
+
+<div class="box">
+
+<h2>Customer Details</h2>
+
+<input type="text" placeholder="Full Name">
+
+<input type="email" placeholder="Email Address">
+
+<input type="text" placeholder="Mobile Number">
+
+<textarea placeholder="Delivery Address"></textarea>
+
+<input type="text" placeholder="Pincode">
+
+<input type="text" placeholder="City">
+
+<input type="text" placeholder="State">
+
+</div>
+
+<!-- Order Summary -->
+
+<div class="box">
+
+<h2>Order Summary</h2>
+
+<div class="summary">
+
+<p>Snake Plant <span>₹299</span></p>
+
+<p>Rose Plant <span>₹259</span></p>
+
+<p>Delivery <span>₹40</span></p>
+
+<hr>
+
+<h3>Total <span>₹598</span></h3>
+
+</div>
+
+</div>
+
+<!-- Coupon -->
+
+<div class="box">
+
+<h2>Coupon</h2>
+
+<input type="text" id="coupon" placeholder="Enter Coupon Code">
+
+<button onclick="applyCoupon()">
+
+Apply Coupon
+
+</button>
+
+<p id="couponMessage"></p>
+
+</div>
+
+<!-- Payment Method -->
+
+<div class="box">
+
+<h2>Payment Method</h2>
+
+<label>
+
+<input type="radio" name="pay" checked>
+
+Debit / Credit Card
+
+</label>
+
+<label>
+
+<input type="radio" name="pay">
+
+UPI
+
+</label>
+
+<label>
+
+<input type="radio" name="pay">
+
+Net Banking
+
+</label>
+
+<label>
+
+<input type="radio" name="pay">
+
+Cash On Delivery
+
+</label>
+
+</div>
+
+<!-- Card Details -->
+
+<div class="box">
+
+<h2>Card Details</h2>
+
+<input type="text" placeholder="Card Holder Name">
+
+<input type="text" placeholder="Card Number">
+
+<div class="row">
+
+<input type="text" placeholder="MM/YY">
+
+<input type="password" placeholder="CVV">
+
+</div>
+
+</div>
+
+<!-- UPI -->
+
+<div class="box">
+
+<h2>UPI Payment</h2>
+
+<input type="text" placeholder="Enter UPI ID">
+
+<p>Example : yourname@upi</p>
+
+</div>
+
+<!-- Net Banking -->
+
+<div class="box">
+
+<h2>Select Bank</h2>
+
+<select>
+
+<option>SBI</option>
+
+<option>HDFC</option>
+
+<option>ICICI</option>
+
+<option>Axis Bank</option>
+
+<option>Canara Bank</option>
+
+<option>Union Bank</option>
+
+</select>
+
+</div>
+
+<!-- Terms -->
+
+<div class="box">
+
+<label>
+
+<input type="checkbox" id="agree">
+
+I agree to the Terms & Conditions
+
+</label>
+
+</div>
+
+<button class="order-btn" onclick="placeOrder()">
+
+🌿 Place Order
+
+</button>
+
+</div>
+
+<script src="payment.js"></script>
+
+</body>
+</html>
